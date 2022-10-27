@@ -1,0 +1,43 @@
+boat running
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+sudo apt-get install ros-noetic-vrpn
+sudo ln -s /usr/bin/python3.8 /usr/bin/python
+sudo apt-get install python3-pip
+pip install pygame
+#restart start terminal 
+cd ~/catkin_ws
+roslaunch cuboat_actuators keyboardcontrol.launch
+
+
+
+
+
+renew
+sudo apt-get update
+sudo apt update
+sudo apt-get dist-upgrade
+sudo apt upgrade
+rosdep update
+
+
+
+
+
+
+
+c
+topic
+source /opt/ros/noetic/setup.bash
+cd catkin_ws/
+catkin_make
+source devel/setup.bash
+sudo chmod 777 /dev/ttyUSB0
+
+rosrun beginner_tutorials talker.py
+
+rosrun beginner_tutorials listener.py
+
+rosrun beginner_tutorials imutalker.py
+
+rosrun beginner_tutorials imulistener.py
+
