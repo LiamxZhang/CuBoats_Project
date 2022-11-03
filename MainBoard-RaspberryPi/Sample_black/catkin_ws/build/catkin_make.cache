@@ -1,0 +1,2 @@
+adrc_control_pkg:cuboat_actuators:logging_pkg:pid_control_pkg:vrpn_client_ros
+-DCATKIN_DEVEL_PREFIX=/home/corvin/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/corvin/catkin_ws/install -G Unix Makefiles

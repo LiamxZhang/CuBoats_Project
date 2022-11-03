@@ -1,0 +1,8 @@
+prefix=/home/corvin/catkin_ws/devel
+
+Name: pid_control_pkg
+Description: Description of pid_control_pkg
+Version: 0.0.0
+Cflags: -I/home/corvin/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

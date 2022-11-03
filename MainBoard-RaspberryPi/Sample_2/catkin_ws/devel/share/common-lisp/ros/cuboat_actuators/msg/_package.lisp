@@ -1,0 +1,23 @@
+(cl:defpackage cuboat_actuators-msg
+  (:use )
+  (:export
+   "<DOCK>"
+   "DOCK"
+   "<PROPELLER>"
+   "PROPELLER"
+   "<SERVOACTION>"
+   "SERVOACTION"
+   "<SERVOACTIONFEEDBACK>"
+   "SERVOACTIONFEEDBACK"
+   "<SERVOACTIONGOAL>"
+   "SERVOACTIONGOAL"
+   "<SERVOACTIONRESULT>"
+   "SERVOACTIONRESULT"
+   "<SERVOFEEDBACK>"
+   "SERVOFEEDBACK"
+   "<SERVOGOAL>"
+   "SERVOGOAL"
+   "<SERVORESULT>"
+   "SERVORESULT"
+  ))
+

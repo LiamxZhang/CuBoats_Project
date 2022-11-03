@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="cuboat_actuators" type="cuboat_motors.py" name="cuboat_actuator"/>
+    <node pkg="cuboat_actuators" type="KeyboardControl.py" name="keyboard_control"/>
+</launch>
+
